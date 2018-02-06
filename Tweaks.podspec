@@ -7,6 +7,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Easily adjust parameters for iOS apps in development.'
   spec.source       = { :git => 'https://github.com/facebook/Tweaks.git', :tag => '2.1.0' }
   spec.source_files = 'FBTweak/*.{h,m}'
+  spec.public_header_files = 'FBTweak/*.h'
   spec.requires_arc = true
   spec.social_media_url = 'https://twitter.com/fbOpenSource'
   spec.framework = 'MessageUI'
